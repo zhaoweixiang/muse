@@ -1,0 +1,160 @@
+body {
+  background: #193441;
+  width: 100%;
+  padding: 20px 10px; }
+  body #box {
+    position: relative;
+    width: 640px;
+    margin: 0 auto; }
+    body #box .box1 {
+      background: #6990a2;
+      width: 100%;
+      padding: 20px 30px 17px 30px;
+      box-sizing: border-box;
+      text-align: center; }
+      body #box .box1 .c_one p {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Microsoft YaHei';
+        margin-bottom: 5px; }
+      body #box .box1 .c_one span {
+        font-size: 12px;
+        color: #fff;
+        font-family: 'Microsoft YaHei'; }
+    body #box .box2 {
+      background: #fff;
+      padding-bottom: 40px; }
+      body #box .box2 .ban {
+        padding: 5px 30px 5px 30px;
+        box-sizing: border-box; }
+        body #box .box2 .ban img {
+          max-width: 100%; }
+      body #box .box2 .details {
+        width: 100%;
+        padding: 12px 30px;
+        box-sizing: border-box; }
+        body #box .box2 .details .zi {
+          line-height: 1.4;
+          font-size: 14px;
+          font-family: "Microsoft YaHei";
+          font-weight: normal;
+          color: #999; }
+        body #box .box2 .details .sh {
+          display: block; }
+          body #box .box2 .details .sh a {
+            margin: 0 auto;
+            width: 100px;
+            display: block;
+            text-align: center; }
+            body #box .box2 .details .sh a .y {
+              display: inline-block;
+              font-size: 16px;
+              font-family: "Microsoft YaHei"; }
+            body #box .box2 .details .sh a .m {
+              display: none;
+              font-size: 16px;
+              font-family: "Microsoft YaHei"; }
+            body #box .box2 .details .sh a i {
+              font: normal normal normal 16px/1 iconfont;
+              font-size: 1.6rem;
+              -webkit-user-select: none;
+              display: inline-block; }
+      body #box .box2 .xz {
+        width: 100%;
+        padding: 12px 30px;
+        box-sizing: border-box; }
+        body #box .box2 .xz p {
+          line-height: 1.4;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          font-weight: normal;
+          color: #000000; }
+        body #box .box2 .xz ul {
+          margin-top: 6px;
+          padding-left: 15px;
+          box-sizing: border-box; }
+          body #box .box2 .xz ul li {
+            width: 25%; }
+            body #box .box2 .xz ul li input {
+              width: 15px;
+              height: 15px;
+              display: inline-block; }
+            body #box .box2 .xz ul li span {
+              font-family: "Microsoft YaHei";
+              font-size: 16px; }
+      body #box .box2 .inp1 {
+        width: 100%;
+        padding: 12px 30px;
+        box-sizing: border-box; }
+        body #box .box2 .inp1 p {
+          line-height: 1.4;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          font-weight: normal;
+          color: #000000; }
+          body #box .box2 .inp1 p i {
+            color: #e02824; }
+        body #box .box2 .inp1 div {
+          width: 80%;
+          margin-top: 6px;
+          padding-left: 15px;
+          box-sizing: border-box; }
+          body #box .box2 .inp1 div .inp1-box {
+            width: 100%;
+            border: 1px solid #999;
+            height: 29px;
+            line-height: 29px;
+            padding: 6px;
+            box-sizing: border-box;
+            overflow: hidden; }
+            body #box .box2 .inp1 div .inp1-box .sex {
+              background: url("../images/C_REN.png") no-repeat;
+              float: left;
+              width: 17px;
+              height: 16px; }
+            body #box .box2 .inp1 div .inp1-box .phone {
+              background: url("../images/C_phone.png") no-repeat;
+              float: left;
+              width: 13px;
+              height: 16px; }
+            body #box .box2 .inp1 div .inp1-box .wx {
+              background: url("../images/C_WX.png") no-repeat;
+              float: left;
+              width: 17px;
+              height: 14px; }
+            body #box .box2 .inp1 div .inp1-box input {
+              border: none;
+              width: 80%;
+              margin-left: 6px;
+              float: left; }
+      body #box .box2 .submin-box {
+        width: 68px;
+        height: 30px;
+        background: #193441;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        margin-top: 60px; }
+        body #box .box2 .submin-box a {
+          width: 100%;
+          height: 100%;
+          display: block;
+          color: #fff;
+          font-family: "Microsoft YaHei"; }
+  body .box3 {
+    margin: 20px auto 0;
+    width: 447px; }
+    body .box3 .at {
+      margin-left: 120px; }
+      body .box3 .at i {
+        background: url("../images/C_formCom.png") no-repeat -472px center;
+        width: 32px;
+        height: 24px;
+        float: left; }
+      body .box3 .at span {
+        float: left;
+        color: #fff;
+        font-family: "Microsoft YaHei";
+        font-size: 16px; }
