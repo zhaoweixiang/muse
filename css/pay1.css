@@ -1,0 +1,168 @@
+html, body {
+  min-width: 16rem;
+  overflow: scroll; }
+
+.head {
+  width: 16rem;
+  text-align: center;
+  background: #eee; }
+  .head .head_a {
+    width: 100%;
+    height: 3.5rem;
+    padding-top: 2rem; }
+    .head .head_a img {
+      width: 2.5rem;
+      height: 1.9rem; }
+  .head .head_b {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #000; }
+  .head .head_c {
+    width: 100%;
+    margin-top: 1.75rem; }
+    .head .head_c form {
+      margin-left: 1rem;
+      border: 0.025rem solid #cccccc;
+      float: left; }
+      .head .head_c form .on {
+        width: 1.6rem;
+        height: 1.7rem;
+        float: left;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #000;
+        border: 0.05rem solid #cccccc; }
+      .head .head_c form .active {
+        width: 1.6rem;
+        height: 1.7rem;
+        float: left;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #000;
+        border: 0.05rem solid #fa7a24; }
+  .head .head_d {
+    width: 16rem;
+    padding-bottom: 1rem; }
+    .head .head_d input {
+      width: 14.75rem;
+      height: 2.5rem;
+      background: #ccc;
+      color: #fff;
+      font-size: 0.85rem;
+      text-align: center;
+      margin: 2.5rem auto 2rem; }
+    .head .head_d a {
+      font-size: 0.625rem;
+      display: inline-block;
+      color: #fa7a24; }
+
+.foot {
+  width: 16rem; }
+  .foot .foot_a {
+    width: 100%;
+    position: relative;
+    display: none; }
+    .foot .foot_a h2 {
+      width: 100%;
+      height: 1.5rem;
+      background: #fff;
+      overflow: hidden; }
+      .foot .foot_a h2 a {
+        font-size: 0.75rem;
+        color: #fa7a24;
+        float: right;
+        margin-right: 0.5rem;
+        margin-top: 0.25rem; }
+    .foot .foot_a .foot_b {
+      width: 100%;
+      background: #eee;
+      padding-bottom: 2.25rem; }
+      .foot .foot_a .foot_b li:nth-child(1) {
+        width: 100%;
+        overflow: hidden; }
+        .foot .foot_a .foot_b li:nth-child(1) span {
+          float: left;
+          width: 1.4rem;
+          height: 1.55rem;
+          background: #fff;
+          color: #000;
+          text-align: center;
+          line-height: 1.65rem;
+          border-radius: 0.125rem;
+          margin: 0.2rem 0.1rem;
+          font-size: 0.6rem; }
+      .foot .foot_a .foot_b li:nth-child(2) {
+        width: 100%;
+        overflow: hidden; }
+        .foot .foot_a .foot_b li:nth-child(2) span {
+          float: left;
+          width: 1.4rem;
+          height: 1.55rem;
+          background: #fff;
+          color: #000;
+          text-align: center;
+          line-height: 1.65rem;
+          border-radius: 0.25rem;
+          margin: 0.1rem;
+          font-size: 0.6rem; }
+        .foot .foot_a .foot_b li:nth-child(2) .foot_c {
+          margin-left: 3.25rem; }
+    .foot .foot_a p {
+      width: 2.9rem;
+      height: 1.55rem;
+      position: absolute;
+      top: 7.05rem;
+      right: 0.2rem;
+      background: #aeb4bd;
+      text-align: center;
+      border-radius: 0.25rem; }
+      .foot .foot_a p img {
+        width: 1.075rem;
+        height: 0.7rem;
+        margin-top: 0.4rem; }
+  .foot .foot_s {
+    width: 100%;
+    position: relative; }
+    .foot .foot_s h2 {
+      width: 100%;
+      height: 1.5rem;
+      background: #fff;
+      overflow: hidden; }
+      .foot .foot_s h2 a {
+        font-size: 0.75rem;
+        color: #fa7a24;
+        float: right;
+        margin-right: 0.5rem;
+        margin-top: 0.25rem; }
+    .foot .foot_s .foot_sb {
+      width: 100%;
+      background: #eee;
+      padding-bottom: 2.25rem; }
+      .foot .foot_s .foot_sb li:nth-child(1) {
+        width: 100%;
+        overflow: hidden; }
+        .foot .foot_s .foot_sb li:nth-child(1) span {
+          float: left;
+          width: 1.4rem;
+          height: 1.55rem;
+          background: #fff;
+          color: #000;
+          text-align: center;
+          line-height: 1.65rem;
+          border-radius: 0.125rem;
+          margin: 0.15rem 0.1rem;
+          font-size: 0.6rem; }
+    .foot .foot_s p {
+      width: 2.9rem;
+      height: 1.55rem;
+      position: absolute;
+      top: 7.125rem;
+      right: 0.2rem;
+      background: #aeb4bd;
+      text-align: center;
+      border-radius: 0.25rem; }
+      .foot .foot_s p img {
+        width: 1.075rem;
+        height: 0.7rem;
+        margin-top: 0.4rem; }

@@ -1,0 +1,62 @@
+header {
+  min-width: 8rem;
+  width: 18.75rem; }
+  header .head_s {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2.5rem;
+    background: #4896fa; }
+    header .head_s h2 {
+      width: 3.75rem;
+      height: 2.5rem;
+      float: left; }
+      header .head_s h2 a {
+        font-size: 0.75rem; }
+    header .head_s p {
+      width: calc(100% - 7.5rem);
+      float: left;
+      height: 2.5rem;
+      font-size: 0.875rem;
+      color: #000; }
+    header .head_s h3 {
+      float: right;
+      width: 3.75rem;
+      height: 2.5rem; }
+      header .head_s h3 a {
+        font-size: 0.75rem; }
+  header .license {
+    width: 100%;
+    background: #eee; }
+    header .license p {
+      width: 100%;
+      float: left;
+      font-size: 1rem;
+      height: 5rem;
+      line-height: 7rem;
+      text-align: center; }
+    header .license .license_s {
+      overflow: hidden;
+      margin: 1.25rem; }
+      header .license .license_s input {
+        float: left;
+        width: 1.85rem;
+        height: 1.95rem;
+        text-align: center;
+        color: #000;
+        font-size: 0.7rem; }
+      header .license .license_s .on {
+        border: 0.05rem solid #cccccc; }
+      header .license .license_s .active {
+        border: 0.05rem solid #fa7a24; }
+    header .license .ch {
+      height: 0.725rem;
+      font-size: 0.6rem;
+      color: #696969; }
+      header .license .ch input {
+        float: right;
+        width: 0.975rem;
+        height: 0.975rem; }
+      header .license .ch span {
+        float: right;
+        margin-right: 2rem; }

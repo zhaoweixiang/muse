@@ -1,0 +1,86 @@
+header {
+  background: #fff;
+  width: 16rem;
+  height: 20rem; }
+  header .nav {
+    padding: 0 0.75rem; }
+    header .nav li {
+      width: 100%;
+      border-bottom: 1px solid #e5e5e5;
+      overflow: hidden;
+      height: 2.25rem; }
+      header .nav li a {
+        font-size: 0.7rem;
+        float: left;
+        width: 100%;
+        height: 100%;
+        line-height: 2.25rem; }
+        header .nav li a img {
+          float: left;
+          width: 0.875rem;
+          height: 0.875rem;
+          margin-top: 0.7rem;
+          margin-right: 0.125rem; }
+        header .nav li a i {
+          float: right;
+          width: 0.7rem;
+          height: 100%;
+          background: url("../images/icon-right.png") no-repeat center;
+          background-size: 50%; }
+
+footer {
+  background: #fff;
+  width: 16rem;
+  position: fixed;
+  border-top: 1px solid #c9c9c9;
+  left: 0;
+  bottom: 0; }
+  footer .foot {
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.5rem; }
+    footer .foot li:nth-child(1) {
+      float: left;
+      width: calc(100%/3); }
+      footer .foot li:nth-child(1) i {
+        float: left;
+        width: 100%;
+        height: 1.25rem;
+        background: url("../images/icon-ypark2.png") no-repeat center;
+        background-size: 25%; }
+      footer .foot li:nth-child(1) span {
+        float: left;
+        width: 100%;
+        font-size: 0.45rem;
+        text-align: center;
+        margin-top: 0.125rem; }
+    footer .foot li:nth-child(2) {
+      float: left;
+      width: calc(100%/3); }
+      footer .foot li:nth-child(2) i {
+        float: left;
+        width: 100%;
+        height: 1.25rem;
+        background: url("../images/icon-user.png") no-repeat center;
+        background-size: 25%; }
+      footer .foot li:nth-child(2) span {
+        float: left;
+        width: 100%;
+        font-size: 0.45rem;
+        text-align: center;
+        margin-top: 0.125rem; }
+    footer .foot li:nth-child(3) {
+      float: left;
+      width: calc(100%/3); }
+      footer .foot li:nth-child(3) i {
+        float: left;
+        width: 100%;
+        height: 1.25rem;
+        background: url("../images/icon-about.png") no-repeat center;
+        background-size: 25%; }
+      footer .foot li:nth-child(3) span {
+        float: left;
+        width: 100%;
+        font-size: 0.45rem;
+        text-align: center;
+        margin-top: 0.125rem; }
